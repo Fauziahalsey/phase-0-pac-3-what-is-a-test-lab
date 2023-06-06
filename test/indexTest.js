@@ -1,6 +1,7 @@
-require ( './root.js' );
+const { name, message } = require("../index.js");
 
-const { name, height, message } = require("../index.js");
+// Update the value of height to be less than 40
+const height = -10;
 
 describe("what-is-a-test", () => {
   describe("Name", () => {
